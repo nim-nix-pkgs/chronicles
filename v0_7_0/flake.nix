@@ -9,13 +9,14 @@
   
   inputs.src-chronicles-v0_7_0.flake = false;
   inputs.src-chronicles-v0_7_0.owner = "status-im";
-  inputs.src-chronicles-v0_7_0.ref   = "refs/tags/v0.7.0";
+  inputs.src-chronicles-v0_7_0.ref   = "v0_7_0";
   inputs.src-chronicles-v0_7_0.repo  = "nim-chronicles";
   inputs.src-chronicles-v0_7_0.type  = "github";
   
   inputs."json_serialization".owner = "nim-nix-pkgs";
   inputs."json_serialization".ref   = "master";
   inputs."json_serialization".repo  = "json_serialization";
+  inputs."json_serialization".dir   = "";
   inputs."json_serialization".type  = "github";
   inputs."json_serialization".inputs.nixpkgs.follows = "nixpkgs";
   inputs."json_serialization".inputs.flakeNimbleLib.follows = "flakeNimbleLib";
