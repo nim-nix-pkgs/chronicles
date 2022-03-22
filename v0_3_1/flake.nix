@@ -9,7 +9,7 @@
   
   inputs.src-chronicles-v0_3_1.flake = false;
   inputs.src-chronicles-v0_3_1.owner = "status-im";
-  inputs.src-chronicles-v0_3_1.ref   = "refs/tags/v0.3.1";
+  inputs.src-chronicles-v0_3_1.ref   = "v0_3_1";
   inputs.src-chronicles-v0_3_1.repo  = "nim-chronicles";
   inputs.src-chronicles-v0_3_1.type  = "github";
   
