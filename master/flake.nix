@@ -11,6 +11,7 @@
   inputs.src-chronicles-master.ref   = "refs/heads/master";
   inputs.src-chronicles-master.owner = "status-im";
   inputs.src-chronicles-master.repo  = "nim-chronicles";
+  inputs.src-chronicles-master.dir   = "";
   inputs.src-chronicles-master.type  = "github";
   
   inputs."testutils".owner = "nim-nix-pkgs";
