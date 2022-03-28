@@ -11,7 +11,6 @@
   inputs.src-chronicles-v0_4_2.ref   = "refs/tags/v0.4.2";
   inputs.src-chronicles-v0_4_2.owner = "status-im";
   inputs.src-chronicles-v0_4_2.repo  = "nim-chronicles";
-  inputs.src-chronicles-v0_4_2.dir   = "";
   inputs.src-chronicles-v0_4_2.type  = "github";
   
   outputs = { self, nixpkgs, flakeNimbleLib, ...}@deps:

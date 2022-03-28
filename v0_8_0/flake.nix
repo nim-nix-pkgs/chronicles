@@ -11,7 +11,6 @@
   inputs.src-chronicles-v0_8_0.ref   = "refs/tags/v0.8.0";
   inputs.src-chronicles-v0_8_0.owner = "status-im";
   inputs.src-chronicles-v0_8_0.repo  = "nim-chronicles";
-  inputs.src-chronicles-v0_8_0.dir   = "";
   inputs.src-chronicles-v0_8_0.type  = "github";
   
   inputs."json_serialization".owner = "nim-nix-pkgs";
